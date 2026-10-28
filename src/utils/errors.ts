@@ -1,4 +1,3 @@
-/ Traduz mensagens comuns do Supabase e da rede para português.
 export function friendlyError(error: unknown): string {
 const message =
 typeof error === 'object' && error !== null && 'message' in error

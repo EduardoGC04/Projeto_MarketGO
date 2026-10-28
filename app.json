@@ -11,20 +11,24 @@
       "bundleIdentifier": "com.seuusuario.marketgo"
     },
     "android": {
-      "package": "com.seuusuario.marketgo"},
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      "package": "com.seuusuario.marketgo"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "adaptiveIcon": {
+      "backgroundColor": "#E6F4FE",
+      "foregroundImage": "./assets/android-icon-foreground.png",
+      "backgroundImage": "./assets/android-icon-background.png",
+      "monochromeImage": "./assets/android-icon-monochrome.png"
     },
+    "predictiveBackGestureEnabled": false,
     "plugins": [
-      "expo-router",
-      "expo-status-bar"
+      "expo-router"
     ]
-  }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    "expo-router",
+    "expo-status-bar"
+  ]
+}
